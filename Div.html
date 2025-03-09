@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div for test</title>
+    <style>
+        .main{
+            width: 500px;
+            height: 500px;
+            background-color: red;
+        }
+        #parent-row-1{
+            width: 500px;
+            height: 250px;
+            background-color: blue;
+        }
+        .colum1{
+            width: 250px;
+            height: 250px;
+            background-color: green;
+            float: left;
+        }
+        .colum2{
+            width: 250px;
+            height: 250px;
+            background-color: aqua;
+            float: left;
+        }
+        #parent-row-2{
+            width: 500px;
+            height: 250px;
+            background-color: yellow;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="parent-row-1">
+            <div class="colum1"> Home </div>
+                <div class="colum2"> Gallary </div>   
+        </div>
+        <hr>
+        <div id="parent-row-2">
+            <div class="colum1">
+                about
+            </div>
+            <div class="colum2">
+                contact
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
